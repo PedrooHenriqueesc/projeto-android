@@ -66,7 +66,7 @@ main {
     background-color: white;
     min-width: 300px;
     max-width: 1000px;
-    padding: 15px;
+    padding: 20px;
     margin-bottom: 30px;
     margin: auto;
     border-bottom-left-radius: 5px;
@@ -79,7 +79,7 @@ a.externo::after{
 }
 nav>a{
     text-decoration: none;
-    color: white;
+    color:#3DDB84;
     padding: 10px;
     font-weight: bold;
     transition-duration: 0.5s;
@@ -89,13 +89,29 @@ nav>a:hover{
     color: var(--cor04);
     padding: 3px 2px;
 }
-iframe{
-    margin: auto;
-    display: block;
+div.video{
+    background-color: var(--cor04);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 59%;
+    position: relative;
+
 }
-img{
-    margin: auto;
+div.video > iframe{
+   position: absolute;
+   top: 5%;
+   left: 5%;
+   width: 90%;
+   height: 90%;
+}
+main img{
+    width: 100%;
+   
+}
+main img.pequena{
+    width: 50%;
     display: block;
+    margin: auto;
 }
 strong{
     color: var(--cor04);
